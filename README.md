@@ -3,7 +3,7 @@
 #### Background and Data:
 In this project, I combine signal processing techniques common in mechanical engineering with machine learning tools to classify human movement with 91% accuracy. 
 
-I accessed data from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones), which consisted of accelerometer signals from Samsung Galaxy phones. 30 different individuals were recorded participating in different activities like walking, sitting, climbing up stairs, etc., and a total of 10,299 activities were recorded. Every activity consists of 9 different signals, and each signal is made up of 128 datapoints. The data therefore consists of a 3D matrix of 10,299 x 9 x 128 (number of sample x signals per sample x data points per signal).
+I accessed data from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones), which consisted of accelerometer signals from Samsung Galaxy phones. 30 different individuals were recorded participating in different activities like walking, sitting, climbing up stairs, etc., and a total of 10,299 activities were recorded. Every activity consists of 9 different signals, and each signal is made up of 128 datapoints. The data therefore consists of a 3D matrix of 10,299 x 9 x 128 (number of samples x signals per sample x data points per signal).
 
 Using signal processing techniques (specifically, the Fourier Transform and Autocorrelation), I transformed this 3D matrix into a 2D one which could be fed into a machine learning classifier.
 
